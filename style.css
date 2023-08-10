@@ -75,6 +75,7 @@ li{
 }
 .love{
     font-weight: 520;
+    display: block;
 }
 #blood{
      width: 400px;
@@ -106,6 +107,10 @@ li{
 }
 .trial-button1:hover{
     color: aqua;
+}
+.img{
+    position: relative;
+    left: 5.0rem;
 }
 .charles{
     text-align: center;
@@ -495,15 +500,15 @@ input[type="checkbox"]{
     gap: 2em;
 }
 .goat{
-    width: 450px;
-    border-radius: 5px;
-    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+    height: 200px;
 }
-.goat:hover{
-    /* transition: all 0.5s ease; */
+/* .goat:hover{
+    transition: all 0.5s ease;
     background-color: black;
-    zoom: 60%;
-}
+    zoom: 50%;
+} */
 .footer{
     display: grid;
     grid-template-columns: auto auto auto auto auto;
@@ -602,5 +607,9 @@ input[type="checkbox"]{
     .design{
         position: relative;
         top: 80em;
+    }
+    .img{
+        position: relative;
+        display: block;
     }
 }
